@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(90deg,#54479fcb 0%,#c1d2ffb6 90%);
+}
+.title{
+  color: pink;
+}
+
+h1 span{
+  color: #ee9d9d;
+}
+
+.Pending, .Completed{
+	margin: 5px 20;
+	padding: 30px;
+}
+
+h1 {
+  background-color: #fff;
+  color: #333;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: none;
+  height: 50px;
+  align-items: center;
+  width: 100%;
+  border-radius: 20rem;
+  padding: inherit;
+  font-size: none;
+  font-weight: 400;
+  font-variant: unset;
+}
+
+h2 {
+  margin-top: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #000000;
+}
+
+input[type="text"] {
+  padding: 5px;
+  width: 200px;
+  height: 25px;
+  margin: 10px;
+  border-radius: 1.55rem;
+  background: #363131;
+  color: #ffffff;
+}
+
+button {
+  padding: 5px 10px;
+  border-radius: 1.55rem;
+  background-color: #6d4848;
+  color: #fff;
+  border:hsl(from  blue white pink);
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+li {
+  margin-bottom: 30px;
+}
+
+ul .pending {
+  text-decoration: line-through;
+  background: #ffffff;
+  color: #ee9d9d;
+  height: 20px;
+  margin: 50px;
+}
+
+
+ul .completed {
+  text-decoration: line-through;
+  background: #f5b6b6;
+  border-block: 20rem;
+  color: #000000;
+  height: 40px;
+  margin: 50px;
+}
